@@ -1,0 +1,75 @@
+h1{
+    padding-top: 150px;
+}
+
+h2{
+    padding-top: 23px;
+}
+
+p{
+    padding-top: 23px;
+}
+
+.skills{
+    width: 768px;
+    height: 6px;
+}
+
+.SkillContainer{
+    padding-top: 12px;
+} 
+
+.Skill{
+    width: 265px;
+    height: 6px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-left: 2px;
+}
+
+.SkillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.hundered{
+    width: 265px; 
+    background-color: blue;   
+}
+
+.fifty{
+    width: 125px;    
+    background-color: gray;
+}
+
+.t5{
+    width: 75px;    
+    background-color: green;
+    margin-left: 60px;
+}
+
+.t6{
+    width: 75px;    
+    background-color: green;
+    margin-left: 70px;
+}
+
+.t4{
+    width: 265px;    
+    background-color: green;
+    margin-left: 70px;
+}
+
+.t2{
+    width: 200px;    
+    background-color: green;
+    margin-left: 40px;
+}
+
+.t1{
+    width: 200px;    
+    background-color: green;
+    margin-left: 59px;
+}

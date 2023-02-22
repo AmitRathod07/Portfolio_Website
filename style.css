@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar {
+    position: absolute;
+    padding: 20px;
+    background-color: rgb(236, 148, 116);
+    /* width: 200px; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 22px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+} 
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 87vw;
+}
+
+.container {
+    display: flex;
+}
+
+.info_container {
+    /* background-color: rgb(164, 125, 16); */
+    height: 58vh;
+    width: 70vw;
+    margin: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btnns button{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    border-radius: 22px;
+    color: white;
+    background-size: contain;
+    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+    font-weight: bold;
+}
+
+.hello {
+    font-size: 37px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.about {
+    font-size: 20px;
+}
+
+.moreabout {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 0px;
+    size: 12px;
+    margin: 8px;
+}
+
+.cross{
+    margin-left: 175px;
+
+}
+
+.devPic {
+    display: flex;
+    height: 58vh;
+}
+
+@media (max-width: 1400px) {
+    * {
+        /* background-color: brown; */
+    }    
+    .devPic{
+        display: none;
+    }
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
+

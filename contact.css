@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+.contactform{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 34px;
+}
+
+h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 10px 0;
+} 
+
+.contactform div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 3px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+#emailHelp{
+    color: midnightblue;
+    font-size: x-small;
+    margin: 0px 5px;
+}
+
+.btn button{
+    padding: 9px;
+    border-radius: 22px;
+    color: white;
+    background-size: contain;
+    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+} 
